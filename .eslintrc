@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "babel"
+  ],
+  "env": {
+    "browser": true
+  },
+  "extends": "airbnb",
+  "globals": {
+    "React": false
+  },
+  "rules": {
+    "space-before-function-paren": [2, "always"],
+    "max-len": [2, 120],
+    "babel/object-shorthand": 1,
+    "react/prefer-stateless-function": 1
+  }
+}
